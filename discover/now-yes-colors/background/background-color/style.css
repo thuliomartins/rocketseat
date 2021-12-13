@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 100px;
+    background-color: #009;
+    border: 1px dashed #000;
+}

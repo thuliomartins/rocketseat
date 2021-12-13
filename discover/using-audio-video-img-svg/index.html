@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using audio and video</title>
+</head>
+<body>
+    <section>
+        <h2>Using Video</h2>
+        <video src="assets/peakyblinders.mp4" controls width="500"></video>
+        <!-- 
+            Parameters: autoplay, preload, poster, loop, width, height
+        -->
+    </section>
+
+    <section>
+        <h2>Using Audio</h2>
+        <audio src="assets/peakyblinders.mp3" controls></audio>
+        <!-- 
+            Parameters: autoplay, preload, loop
+        -->
+    </section>
+
+    <section>
+        <h2>Using iframe</h2>
+        <iframe 
+            width="500" 
+            height="300" 
+            src="https://www.youtube.com/embed/VM4e37DaskU" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; 
+                    autoplay; 
+                    clipboard-write; 
+                    encrypted-media; 
+                    gyroscope; 
+                    picture-in-picture
+                " 
+            allowfullscreen
+            title="Video Rocketseat">
+        </iframe>
+    </section>
+
+    <section>
+        <h2>Using image</h2>
+        <figure>
+            <img 
+                src="assets/icon-js.png"
+                alt="Javascript icon" 
+                title="Javascript icon"
+                width="300"
+            />
+            <figcaption>Icon Javascript</figcaption>
+        </figure>
+    </section>
+
+    <section>
+        <h2>Using SVG</h2>
+        <svg>
+            <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow"/>
+        </svg>
+    </section>
+</body>
+</html>

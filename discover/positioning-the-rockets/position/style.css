@@ -1,0 +1,29 @@
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 100px;
+    position: relative;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: -7px;
+    left: -7px;
+    text-align: center;
+    color: #fff;
+}
+
+.color_yellow {
+    background-color: yellow;
+}
+
+.color_blue {
+    background-color: blue;
+}
+
+.color_green {
+    background-color: green;
+}

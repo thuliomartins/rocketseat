@@ -1,0 +1,24 @@
+/* Numerical types
+* 
+* <integer> Integer like -10 or 223 
+* <number> Decimal like -2.4, 64 or 0.234
+* <dimension> Is a <number> with a unit together: 90deg, 2s, 8px
+* <percentage> Represents the fraction of another number: 50%
+*
+* Common units
+* 
+* <length> Represents a distance value: px, in, vw
+* <angle> Represents a angle: deg, rad, turn
+* <time> Represents a time: s, ms
+* <resolution> Represents resolutions for dpi devices
+*
+*/
+
+/* Example Percentage */
+
+html {
+    font-size: 50%;
+}
+
+
+
