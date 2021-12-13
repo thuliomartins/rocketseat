@@ -1,4 +1,4 @@
-# rocketseat-projects
+# rocketseat
 
 * discover
     * forms from another world
