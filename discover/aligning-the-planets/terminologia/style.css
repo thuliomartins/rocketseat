@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-end;
+    height: 100vh;
+}
+.item {
+    background-color: blue;
+    margin: 10px;
+}
