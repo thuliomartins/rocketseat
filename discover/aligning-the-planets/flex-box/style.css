@@ -1,0 +1,8 @@
+.flexbox {
+    display: flex;
+    justify-content: space-around;
+}
+.item {
+    background-color: blue;
+    margin: 10px;
+}
