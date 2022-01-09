@@ -1,6 +1,6 @@
-# rocketseat
+# Rocketseat
 
-* discover
+* Discover
     * forms from another world
     * HTML that makes sense, for everyone
     * Working with audio, video, image and svg
