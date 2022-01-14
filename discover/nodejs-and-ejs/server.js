@@ -6,7 +6,15 @@ const PORT = 8080;
 app.set("view engine", "ejs");
 
 app.get("/", (req, res) => {
-    res.render("pages/index");
+    const itens = [
+        {title: "Java ", message: "I'am Developer "},
+        {title: "JavaScript ", message: "I'am Developer "},
+        {title: "Python ", message: "I'am Developer "}        
+    ];
+
+    res.render("pages/index", {
+        languages: itens,
+    });
 });
 
 app.get("/about", (req, res) => {
